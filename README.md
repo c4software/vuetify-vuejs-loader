@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/vuetify-vuejs-loader.svg)](https://www.npmjs.com/package/vuetify-vuejs-loader)
 
-Vuetify + VueJS Loader
+Vuetify VueJS Loader Component.
 
 ## Installation
 
