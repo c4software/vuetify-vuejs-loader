@@ -1,6 +1,6 @@
 {
   "name": "vuetify-vuejs-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vuetify VueJS Loader Component",
   "main": "dist/index.js",
   "dependencies": {},

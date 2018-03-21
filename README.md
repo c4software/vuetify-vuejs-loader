@@ -14,7 +14,7 @@ npm install vuetify-vuejs-loader --save
 
 ```vue
 <template>
-  <vuetifyLoader />
+  <VuetifyLoader />
 </template>
 
 <script>
