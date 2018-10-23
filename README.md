@@ -27,3 +27,18 @@ npm install vuetify-vuejs-loader --save
   }
 </script>
 ```
+
+## Usage With Vuetify-Loader
+
+Since Vuetify-Loader didn't « scan » correctly usage in external dependencies you have to manually import components needed…
+
+```javascript
+  import Vue from 'vue';
+  import vuetifyLoader from 'vuetify-vuejs-loader';
+  import Vuetify, {VCard, VCardText, VDialog, VProgressCircular} from 'vuetify/lib'
+  
+  Vue.use(Vuetify, {
+    components: {VProgressCircular, VDialog, VCard, VCardText}
+  });
+  Vue.use(vuetifyLoader);
+```
