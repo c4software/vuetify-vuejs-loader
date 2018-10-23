@@ -1,31 +1,32 @@
 {
   "name": "vuetify-vuejs-loader",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Vuetify VueJS Loader Component",
   "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
-    "css-loader": "^0.28.10",
-    "eslint": "^4.18.2",
+    "@babel/core": "^7.1.2",
+    "@babel/runtime": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-istanbul": "^5.1.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.7.0",
     "eslint-config-spatie": "^2.0.3",
-    "vue": "^2.5.15",
-    "vue-loader": "^14.2.1",
-    "vue-template-compiler": "^2.5.15",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11",
-    "webpack-merge": "^4.1.2"
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
   },
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production webpack --mode production"
   },
   "peerDependencies": {
-    "vue": "^2.5.15",
-    "vuetify": "^1.0.6"
+    "vue": "^2.5.17",
+    "vuetify": "^1.3.2"
   },
   "repository": {
     "type": "git",
