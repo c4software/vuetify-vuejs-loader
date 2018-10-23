@@ -16,7 +16,7 @@ module.exports = merge(require('./webpack.base'), {
   },
 
   plugins: [
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
   ],
 
   externals: {
