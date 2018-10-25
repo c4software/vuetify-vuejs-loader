@@ -1,9 +1,11 @@
-import VuetifyLoader from './component/VuetifyLoader';
+import VuetifyLoader from './component/VuetifyLoader.vue';
 
-export default {
-    install(Vue) {
-        Vue.component('VuetifyLoader', VuetifyLoader);
-    },
-};
+function Install(Vue) {
+  Vue.component('VuetifyLoader', VuetifyLoader);
+}
 
-export { VuetifyLoader };
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(Install)
+}
+
+export default Install;
