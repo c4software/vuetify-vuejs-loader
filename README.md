@@ -28,7 +28,29 @@ npm install vuetify-vuejs-loader --save
 </script>
 ```
 
-## Usage With Vuetify-Loader
+## Usage with Vuetify-Loader (aka a-la-carte)
+
+Recently the Vuetify plugin for vue-cli enable A-la-carte by default.
+
+### Importing via the .vue directly
+
+```vue
+<template>
+  <VuetifyLoader />
+</template>
+
+<script>
+  import Vue from 'vue';
+  import vuetifyLoader from 'vuetify-vuejs-loader/src';
+  Vue.use(vuetifyLoader);
+
+  export default {
+    name: 'example'
+  }
+<
+```
+
+### Importing every components
 
 Since Vuetify-Loader didn't « scan » correctly usage in external dependencies you have to manually import components needed…
 
