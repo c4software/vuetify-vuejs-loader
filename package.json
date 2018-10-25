@@ -1,12 +1,10 @@
 {
   "name": "vuetify-vuejs-loader",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Vuetify VueJS Loader Component",
   "main": "dist/vuetify-vuejs-loader.cjs.js",
-  "module": "dist/vuetify-vuejs-loader.m.js",
-  "browser": "dist/vuetify-vuejs-loader.js",
-  "cdn": "dist/vuetify-vuejs-loader.min.js",
-  "unpkg": "dist/vuetify-vuejs-loader.min.js",
+  "module": "dist/vuetify-vuejs-loader.es.js",
+  "browser": "dist/vuetify-vuejs-loader.min.js",
   "dependencies": {},
   "devDependencies": {
     "bili": "^3.1.2",
@@ -20,8 +18,8 @@
   },
   "scripts": {
     "build": "npm run build:module && npm run build:browser",
-    "build:module": "NODE_ENV=production bili --name vuetify-vuejs-loader --format cjs,es --plugin vue",
-    "build:browser": "NODE_ENV=production bili --name vuetify-vuejs-loader --format umd,umd-min --module-name vuetify-vuejs-loader --external vue --global.vue \"Vue\" --plugin vue",
+    "build:module": "NODE_ENV=production bili --format cjs,es --plugin vue",
+    "build:browser": "NODE_ENV=production bili --format umd,umd-min --module-name vuetify-vuejs-loader --external vue --global.vue \"Vue\" --plugin vue",
     "lint": "eslint --ext js --ext vue src",
     "lint:fix": "npm run lint -- --fix",
     "prepublish": "npm run build"
