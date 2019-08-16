@@ -16,7 +16,7 @@ var script = {
             const __vue_script__ = script;
             
 /* template */
-var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-dialog',{attrs:{"value":"true","persistent":"","max-width":"290"}},[_c('v-card',[_c('v-card-text',{staticClass:"text-center",staticStyle:{"padding":"0"}},[_c('v-progress-circular',{staticClass:"primary--text",attrs:{"size":70,"indeterminate":""}})],1)],1)],1)};
+var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-dialog',{attrs:{"value":"true","persistent":"","max-width":"290"}},[_c('v-card',[_c('v-card-text',{staticClass:"text-center",staticStyle:{"padding":"20"}},[_c('v-progress-circular',{staticClass:"primary--text",attrs:{"size":70,"indeterminate":""}})],1)],1)],1)};
 var __vue_staticRenderFns__ = [];
 
   /* style */
